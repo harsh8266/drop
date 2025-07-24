@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<command>
+   <a>
+      <execute>Invoke-WmiMethod win32_process -name create -ArgumentList calc.exe</execute>
+   </a>
+  </command>
